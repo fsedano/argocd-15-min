@@ -16,7 +16,7 @@ spec:
                 image:
                     tag: latest
                 ingress:
-                    devops-toolkit.$INGRESS_HOST.xip.io
+                    devops-toolkit.172.18.0.2.sslip.io
             version: v3
     destination:
         namespace: production
