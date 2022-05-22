@@ -10,7 +10,7 @@ spec:
     source:
         path: helm
         repoURL: https://github.com/fsedano/app2.git
-        targetRevision: HEAD
+        targetRevision: repl4
         helm:
             values: |
                 image:
